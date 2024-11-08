@@ -1,0 +1,83 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "运行本地评测",
+            "type": "shell",
+            "command": "sudo python utils/evaluation/evaluator.py",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "detail": "使用 evaluator.py 运行本地评测"
+        },
+        {
+            "label": "统一文件行末尾为 LF",
+            "type": "shell",
+            "command": "sudo python utils/line_endings_converter.py",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "detail": "使用 line_endings_converter.py 替换所有相关文件行末尾"
+        },
+        {
+            "type": "shell",
+            "label": "构建语法分析器",
+            "command": "sudo bash utils/build_parser.sh",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "使用 build_parser.sh 构建语法分析器"
+        },
+        {
+            "type": "shell",
+            "label": "构建项目（调试模式）",
+            "command": "sudo bash utils/build.sh --verbose --debug",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "使用 build.sh 构建项目（调试模式）"
+        },
+        {
+            "type": "shell",
+            "label": "构建项目并运行",
+            "command": "sudo bash utils/build_run.sh ${input:promptTestCaseName}",
+            "args": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "detail": "使用 build_run.sh 构建项目并运行"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "promptTestCaseName",
+            "type": "command",
+            "command": "extension.commandvariable.promptStringRemember",
+            "args": {
+                "key": "testCaseName",
+                "description": "输入测试用例名（如 case1）"
+            }
+        }
+    ]
+}
