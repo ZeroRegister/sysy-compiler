@@ -2,10 +2,13 @@
 
 #include "Common.h"
 #include "IR.h"
+#include "DFA.h"
 #include "register.h"
 #include "instruction.h"
 #include "instruction_selection.h"
 #include "machine_code.h"
+#include "register_allocation.h"
+#include "peephole.h"
 
 namespace backend {
 
@@ -36,6 +39,42 @@ namespace backend {
                 continue;
             }
             riscModule->createGlobal(globalInst, riscModule);
+        }
+    }
+
+    void runBackend(const Ptr<ir::Module> &irModule, Ptr<RiscModule> riscModule) {
+        dbgout << std::endl
+               << "ASM generation started." << std::endl;
+
+        initBackend(irModule, riscModule);
+        for (auto func : riscModule->funcs()) {
+            auto irFunction = func->sourceFunc();
+            ir::DFAContext dfaCtx{irFunction, ir::DFAContext::LV};
+
+            mapArguments(func);
+            generateInst(func);
+            allocateRegisters(func, dfaCtx);
+
+            // dbgout << std::endl
+            //        << func->tag() << " function ASM before saveAndRestoreCallSites:" << std::endl
+            //        << func->toString() << std::endl;
+            saveAndRestoreCallSites(func);
+            findReadWrittenRegs(func);
+
+            // dbgout << std::endl
+            //        << func->tag() << " function ASM before fillVirtualRegs:" << std::endl
+            //        << func->toString() << std::endl;
+            fillVirtualRegs(func);
+            fillOffsets(func);
+
+            FixedPoint{
+                [&](bool &changed) {
+                    peephole(func, changed);
+                },
+                true,
+                "Peephole optimization",
+                func->tag(),
+            };
         }
     }
 }
