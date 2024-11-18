@@ -1,0 +1,771 @@
+第 1 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/01_mm1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/01_mm1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/01_mm1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/01_mm1.out
+运行日志:
+Timer@0616-4096: 0H-0M-2S-317985us
+TOTAL: 0H-0M-2S-317985us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/01_mm1.out
+编译时间: 209ms
+运行时间: 2558ms
+测试结果: AC
+
+第 2 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/01_mm2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/01_mm2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/01_mm2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/01_mm2.out
+运行日志:
+Timer@0874-4096: 0H-0M-1S-908023us
+TOTAL: 0H-0M-1S-908023us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/01_mm2.out
+编译时间: 111ms
+运行时间: 2134ms
+测试结果: AC
+
+第 3 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/01_mm3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/01_mm3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/01_mm3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/01_mm3.out
+运行日志:
+Timer@0856-4096: 0H-0M-1S-413466us
+TOTAL: 0H-0M-1S-413466us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/01_mm3.out
+编译时间: 114ms
+运行时间: 1643ms
+测试结果: AC
+
+第 4 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/03_sort1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/03_sort1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/03_sort1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/03_sort1.out
+运行日志:
+Timer@1000000-0007: 0H-0M-0S-466691us
+TOTAL: 0H-0M-0S-466691us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/03_sort1.out
+编译时间: 121ms
+运行时间: 999ms
+测试结果: AC
+
+第 5 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/03_sort2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/03_sort2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/03_sort2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/03_sort2.out
+运行日志:
+Timer@30000000-0007: 0H-0M-9S-79897us
+TOTAL: 0H-0M-9S-79897us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/03_sort2.out
+编译时间: 125ms
+运行时间: 22850ms
+测试结果: AC
+
+第 6 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/03_sort3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/03_sort3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/03_sort3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/03_sort3.out
+运行日志:
+Timer@5000000-0007: 0H-0M-1S-540737us
+TOTAL: 0H-0M-1S-540737us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/03_sort3.out
+编译时间: 120ms
+运行时间: 3866ms
+测试结果: AC
+
+第 7 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/04_spmv1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/04_spmv1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/04_spmv1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/04_spmv1.out
+运行日志:
+Timer@50000-1436870920: 0H-0M-1S-92930us
+TOTAL: 0H-0M-1S-92930us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/04_spmv1.out
+编译时间: 107ms
+运行时间: 2039ms
+测试结果: AC
+
+第 8 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/04_spmv2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/04_spmv2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/04_spmv2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/04_spmv2.out
+运行日志:
+Timer@100000-1434870920: 0H-0M-0S-689578us
+TOTAL: 0H-0M-0S-689578us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/04_spmv2.out
+编译时间: 107ms
+运行时间: 1284ms
+测试结果: AC
+
+第 9 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/04_spmv3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/04_spmv3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/04_spmv3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/04_spmv3.out
+运行日志:
+Timer@1000-1436870920: 0H-0M-0S-983377us
+TOTAL: 0H-0M-0S-983377us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/04_spmv3.out
+编译时间: 107ms
+运行时间: 1834ms
+测试结果: AC
+
+第 10 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/fft0.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/fft0.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/fft0.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/fft0.out
+运行日志:
+Timer@50000-0000: 0H-0M-6S-373055us
+TOTAL: 0H-0M-6S-373055us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/fft0.out
+编译时间: 133ms
+运行时间: 6481ms
+测试结果: AC
+
+第 11 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/fft1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/fft1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/fft1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/fft1.out
+运行日志:
+Timer@100000-0000: 0H-0M-13S-521119us
+TOTAL: 0H-0M-13S-521119us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/fft1.out
+编译时间: 135ms
+运行时间: 13728ms
+测试结果: AC
+
+第 12 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/fft2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/fft2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/fft2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/fft2.out
+运行日志:
+Timer@150000-0000: 0H-0M-13S-131618us
+TOTAL: 0H-0M-13S-131618us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/fft2.out
+编译时间: 126ms
+运行时间: 13292ms
+测试结果: AC
+
+第 13 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-gosper.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-gosper.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-gosper.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-gosper.out
+运行日志:
+Timer@0010-1432871228: 0H-0M-6S-872459us
+TOTAL: 0H-0M-6S-872459us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-gosper.out
+编译时间: 120ms
+运行时间: 6892ms
+测试结果: AC
+
+第 14 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-oscillator.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-oscillator.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-oscillator.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-oscillator.out
+运行日志:
+Timer@0010-1432771028: 0H-0M-6S-33458us
+TOTAL: 0H-0M-6S-33458us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-oscillator.out
+编译时间: 114ms
+运行时间: 6050ms
+测试结果: AC
+
+第 15 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-p61glidergun.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-p61glidergun.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-p61glidergun.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/gameoflife-p61glidergun.out
+运行日志:
+Timer@0010-1433240044: 0H-0M-5S-960051us
+TOTAL: 0H-0M-5S-960051us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/gameoflife-p61glidergun.out
+编译时间: 112ms
+运行时间: 6005ms
+测试结果: AC
+
+第 16 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-1-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-1-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-1-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-1-01.out
+运行日志:
+Timer@100000000-0107: 0H-2M-3S-801451us
+TOTAL: 0H-2M-3S-801451us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-1-01.out
+编译时间: 102ms
+运行时间: 123817ms
+测试结果: AC
+
+第 17 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-1-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-1-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-1-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-1-02.out
+运行日志:
+Timer@10000000-0145: 0H-0M-10S-628926us
+TOTAL: 0H-0M-10S-628926us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-1-02.out
+编译时间: 107ms
+运行时间: 10644ms
+测试结果: AC
+
+第 18 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-1-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-1-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-1-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-1-03.out
+运行日志:
+Timer@50000000-0106: 0H-0M-58S-904240us
+TOTAL: 0H-0M-58S-904240us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-1-03.out
+编译时间: 103ms
+运行时间: 58920ms
+测试结果: AC
+
+第 19 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-2-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-2-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-2-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-2-01.out
+运行日志:
+Timer@0001--1423288296: 0H-0M-25S-148632us
+TOTAL: 0H-0M-25S-148632us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-2-01.out
+编译时间: 104ms
+运行时间: 25163ms
+测试结果: AC
+
+第 20 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-2-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-2-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-2-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-2-02.out
+运行日志:
+Timer@0001--1423287896: 0H-0M-24S-722644us
+TOTAL: 0H-0M-24S-722644us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-2-02.out
+编译时间: 109ms
+运行时间: 24736ms
+测试结果: AC
+
+第 21 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-2-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-2-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-2-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-2-03.out
+运行日志:
+Timer@0001--1423292296: 0H-0M-30S-145881us
+TOTAL: 0H-0M-30S-145881us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-2-03.out
+编译时间: 106ms
+运行时间: 30160ms
+测试结果: AC
+
+第 22 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-3-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-3-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-3-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-3-01.out
+运行日志:
+Timer@640000-3200: 0H-0M-0S-632368us
+TOTAL: 0H-0M-0S-632368us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-3-01.out
+编译时间: 115ms
+运行时间: 1189ms
+测试结果: AC
+
+第 23 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-3-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-3-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-3-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-3-02.out
+运行日志:
+Timer@640000-3200: 0H-0M-0S-641566us
+TOTAL: 0H-0M-0S-641566us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-3-02.out
+编译时间: 113ms
+运行时间: 1189ms
+测试结果: AC
+
+第 24 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-3-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-3-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-3-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-3-03.out
+运行日志:
+Timer@640000-3200: 0H-0M-0S-623960us
+TOTAL: 0H-0M-0S-623960us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-3-03.out
+编译时间: 113ms
+运行时间: 1173ms
+测试结果: AC
+
+第 25 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-4-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-4-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-4-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-4-01.out
+运行日志:
+Timer@0003-0010: 0H-0M-2S-26455us
+TOTAL: 0H-0M-2S-26455us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-4-01.out
+编译时间: 103ms
+运行时间: 2041ms
+测试结果: AC
+
+第 26 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-4-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-4-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-4-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-4-02.out
+运行日志:
+Timer@0006-0010: 0H-0M-6S-725836us
+TOTAL: 0H-0M-6S-725836us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-4-02.out
+编译时间: 107ms
+运行时间: 6742ms
+测试结果: AC
+
+第 27 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-4-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-4-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-4-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-4-03.out
+运行日志:
+Timer@0006-0010: 0H-0M-12S-578376us
+TOTAL: 0H-0M-12S-578376us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-4-03.out
+编译时间: 103ms
+运行时间: 12593ms
+测试结果: AC
+
+第 28 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-5-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-5-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-5-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-5-01.out
+运行日志:
+Timer@1400-1400: 0H-0M-1S-483551us
+TOTAL: 0H-0M-1S-483551us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-5-01.out
+编译时间: 112ms
+运行时间: 2291ms
+测试结果: AC
+
+第 29 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-5-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-5-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-5-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-5-02.out
+运行日志:
+Timer@1400-1400: 0H-0M-1S-491139us
+TOTAL: 0H-0M-1S-491139us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-5-02.out
+编译时间: 115ms
+运行时间: 2301ms
+测试结果: AC
+
+第 30 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-5-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-5-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-5-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-5-03.out
+运行日志:
+Timer@1400-1400: 0H-0M-1S-496843us
+TOTAL: 0H-0M-1S-496843us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-5-03.out
+编译时间: 113ms
+运行时间: 2322ms
+测试结果: AC
+
+第 31 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-6-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-6-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-6-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-6-01.out
+运行日志:
+Timer@200000000-200000000: 0H-0M-10S-637539us
+TOTAL: 0H-0M-10S-637539us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-6-01.out
+输出结果:
+0x0p+0
+0
+正确输出:
+0x1p+19
+0
+编译时间: 104ms
+运行时间: 10654ms
+测试结果: WA
+
+第 32 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-6-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-6-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-6-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-6-02.out
+运行日志:
+Timer@300000000-300000000: 0H-0M-15S-967172us
+TOTAL: 0H-0M-15S-967172us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-6-02.out
+输出结果:
+0x0p+0
+0
+正确输出:
+0x1p+19
+0
+编译时间: 103ms
+运行时间: 15982ms
+测试结果: WA
+
+第 33 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-6-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-6-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-6-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-6-03.out
+运行日志:
+Timer@400000000-400000000: 0H-0M-21S-260708us
+TOTAL: 0H-0M-21S-260708us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-6-03.out
+输出结果:
+0x0p+0
+0
+正确输出:
+0x1p+19
+0
+编译时间: 104ms
+运行时间: 21276ms
+测试结果: WA
+
+第 34 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-7-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-7-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-7-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-7-01.out
+运行日志:
+Timer@600000-0000: 0H-0M-1S-77052us
+TOTAL: 0H-0M-1S-77052us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-7-01.out
+编译时间: 101ms
+运行时间: 2516ms
+测试结果: AC
+
+第 35 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-8-01.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-8-01.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-8-01.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-8-01.out
+运行日志:
+Timer@1960000-1439516408: 0H-0M-1S-637983us
+TOTAL: 0H-0M-1S-637983us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-8-01.out
+编译时间: 165ms
+运行时间: 3829ms
+测试结果: AC
+
+第 36 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-8-02.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-8-02.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-8-02.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-8-02.out
+运行日志:
+Timer@1960000-1439516408: 0H-0M-1S-773537us
+TOTAL: 0H-0M-1S-773537us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-8-02.out
+编译时间: 172ms
+运行时间: 3914ms
+测试结果: AC
+
+第 37 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/h-8-03.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/h-8-03.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/h-8-03.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/h-8-03.out
+运行日志:
+Timer@1960000-1439516408: 0H-0M-1S-876077us
+TOTAL: 0H-0M-1S-876077us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/h-8-03.out
+编译时间: 152ms
+运行时间: 4012ms
+测试结果: AC
+
+第 38 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/if-combine1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/if-combine1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/if-combine1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/if-combine1.out
+运行日志:
+Timer@0001-0010: 0H-0M-4S-418163us
+TOTAL: 0H-0M-4S-418163us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/if-combine1.out
+编译时间: 136ms
+运行时间: 4433ms
+测试结果: AC
+
+第 39 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/if-combine2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/if-combine2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/if-combine2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/if-combine2.out
+运行日志:
+Timer@0001-0010: 0H-0M-6S-592712us
+TOTAL: 0H-0M-6S-592712us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/if-combine2.out
+编译时间: 136ms
+运行时间: 6606ms
+测试结果: AC
+
+第 40 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/if-combine3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/if-combine3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/if-combine3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/if-combine3.out
+运行日志:
+Timer@0001-0010: 0H-0M-10S-722018us
+TOTAL: 0H-0M-10S-722018us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/if-combine3.out
+编译时间: 133ms
+运行时间: 10737ms
+测试结果: AC
+
+第 41 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_1.out
+运行日志:
+Timer@2048--1423276488: 0H-0M-10S-995725us
+TOTAL: 0H-0M-10S-995725us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_1.out
+编译时间: 134ms
+运行时间: 11012ms
+测试结果: AC
+
+第 42 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_2.out
+运行日志:
+Timer@4096--1423284680: 0H-0M-21S-741849us
+TOTAL: 0H-0M-21S-741849us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_2.out
+编译时间: 107ms
+运行时间: 21758ms
+测试结果: AC
+
+第 43 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/large_loop_array_3.out
+运行日志:
+Timer@8192--1423301064: 0H-0M-9S-35832us
+TOTAL: 0H-0M-9S-35832us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/large_loop_array_3.out
+编译时间: 127ms
+运行时间: 9053ms
+测试结果: AC
+
+第 44 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/matmul1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/matmul1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/matmul1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/matmul1.out
+运行日志:
+Timer@1000-1435674800: 0H-0M-1S-934767us
+TOTAL: 0H-0M-1S-934767us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/matmul1.out
+编译时间: 139ms
+运行时间: 2470ms
+测试结果: AC
+
+第 45 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/matmul2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/matmul2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/matmul2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/matmul2.out
+运行日志:
+Timer@1000-1435674800: 0H-0M-1S-910948us
+TOTAL: 0H-0M-1S-910948us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/matmul2.out
+编译时间: 130ms
+运行时间: 2403ms
+测试结果: AC
+
+第 46 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/matmul3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/matmul3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/matmul3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/matmul3.out
+运行日志:
+Timer@1000-1435674800: 0H-0M-1S-917660us
+TOTAL: 0H-0M-1S-917660us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/matmul3.out
+编译时间: 129ms
+运行时间: 2407ms
+测试结果: AC
+
+第 47 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_1.out
+运行日志:
+Timer@0001-0112: 0H-0M-58S-514227us
+TOTAL: 0H-0M-58S-514227us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_1.out
+编译时间: 133ms
+运行时间: 58529ms
+测试结果: AC
+
+第 48 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_2.out
+运行日志:
+Timer@0001-0112: 0H-0M-14S-625210us
+TOTAL: 0H-0M-14S-625210us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_2.out
+编译时间: 137ms
+运行时间: 14641ms
+测试结果: AC
+
+第 49 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/recursive_call_3.out
+运行日志:
+Timer@0001-0112: 0H-0M-29S-744777us
+TOTAL: 0H-0M-29S-744777us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/recursive_call_3.out
+编译时间: 130ms
+运行时间: 29763ms
+测试结果: AC
+
+第 50 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/shuffle0.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/shuffle0.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/shuffle0.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/shuffle0.out
+运行日志:
+Timer@100000-9331: 0H-0M-1S-654638us
+TOTAL: 0H-0M-1S-654638us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/shuffle0.out
+编译时间: 145ms
+运行时间: 1889ms
+测试结果: AC
+
+第 51 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/shuffle1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/shuffle1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/shuffle1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/shuffle1.out
+运行日志:
+Timer@100000-17646: 0H-0M-2S-647225us
+TOTAL: 0H-0M-2S-647225us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/shuffle1.out
+编译时间: 142ms
+运行时间: 3983ms
+测试结果: AC
+
+第 52 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/shuffle2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/shuffle2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/shuffle2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/shuffle2.out
+运行日志:
+Timer@5000000-16081: 0H-0M-3S-516872us
+TOTAL: 0H-0M-3S-516872us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/shuffle2.out
+编译时间: 156ms
+运行时间: 14849ms
+测试结果: AC
+
+第 53 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/sl1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/sl1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/sl1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/sl1.out
+运行日志:
+Timer@0003--2396: 0H-0M-2S-416581us
+TOTAL: 0H-0M-2S-416581us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/sl1.out
+编译时间: 140ms
+运行时间: 2437ms
+测试结果: AC
+
+第 54 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/sl2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/sl2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/sl2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/sl2.out
+运行日志:
+Timer@0003--2396: 0H-0M-0S-698502us
+TOTAL: 0H-0M-0S-698502us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/sl2.out
+编译时间: 124ms
+运行时间: 720ms
+测试结果: AC
+
+第 55 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/sl3.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/sl3.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/sl3.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/sl3.out
+运行日志:
+Timer@0003--2396: 0H-0M-0S-329004us
+TOTAL: 0H-0M-0S-329004us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/sl3.out
+编译时间: 178ms
+运行时间: 348ms
+测试结果: AC
+
+第 56 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/transpose0.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/transpose0.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/transpose0.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/transpose0.out
+运行日志:
+Timer@0030--001: 0H-0M-1S-179073us
+TOTAL: 0H-0M-1S-179073us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/transpose0.out
+编译时间: 182ms
+运行时间: 1200ms
+测试结果: AC
+
+第 57 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/transpose1.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/transpose1.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/transpose1.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/transpose1.out
+运行日志:
+Timer@0040--001: 0H-0M-1S-753114us
+TOTAL: 0H-0M-1S-753114us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/transpose1.out
+编译时间: 132ms
+运行时间: 1771ms
+测试结果: AC
+
+第 58 个测试点
+测试文件: /root/sysy-compiler/test_cases/performance_c/transpose2.c
+汇编文件: /root/sysy-compiler/utils/evaluation/out/transpose2.s
+输入文件: /root/sysy-compiler/test_cases/performance_c/transpose2.in
+输出文件: /root/sysy-compiler/utils/evaluation/out/transpose2.out
+运行日志:
+Timer@0100--001: 0H-0M-3S-570565us
+TOTAL: 0H-0M-3S-570565us
+正确输出文件: /root/sysy-compiler/test_cases/performance_c/transpose2.out
+编译时间: 123ms
+运行时间: 3589ms
+测试结果: AC
